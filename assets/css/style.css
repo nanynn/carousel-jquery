@@ -1,0 +1,83 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body { 
+	position:relative; 
+	background-image: url(../img/fondo.jpg);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+h1{
+	text-align: center;
+	color: #fff;
+}
+
+.fa-heart{
+	color: #FA1028;
+}
+
+.carusel { 
+	width: 1000px; 
+	height: 600px;
+	overflow:hidden;  
+}
+
+ul.images { 
+	position:relative; 
+	top:0px;
+	left:0px; 
+}
+
+ul.images li { 
+  	float:left; 
+}
+
+ul.triggers { 
+	position:absolute; 
+	bottom: 20px;
+	left:500px; 
+}
+
+ul.triggers li { 
+    float:left; 
+    margin:0 5px; 
+    cursor:pointer;
+    background-color:#fff; 
+    padding:10px;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+}
+
+ul.triggers li.selected {
+	background-color:#FA1028;
+}
+
+.control {
+	cursor:pointer;
+	color:#fff;
+}
+
+span{
+	display: block;
+}
+
+.next{
+	position: absolute;
+	left: 0;
+	top:250px;
+}
+
+.prev{
+	position: absolute;
+	right: 0;
+	top:250px;
+}
+
+.next:hover, .prev:hover{
+	color: #FA1028;
+}
