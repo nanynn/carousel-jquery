@@ -15,7 +15,9 @@ h1{
 	text-align: center;
 	color: #fff;
 }
-
+ul{
+	list-style: none;
+}
 .fa-heart{
 	color: #FA1028;
 }
